@@ -1,0 +1,44 @@
+.A1x1 {
+    padding: 0px;
+    font-size: 40px;
+    text-align: center;
+    height: 44px;
+    width: 44px;
+    float: left;
+}
+
+.A1x3 {
+    height: 44px;
+    width: 44px;
+    text-align: center;
+    display: inline-block;
+    margin-left: 0px;
+    margin-top: 0px;
+
+}
+
+.A3x3 {
+    border: black solid 2px;
+    padding: 0px;
+    text-align: center;
+    height: 142px;
+    width: 140px;
+}
+.A3x9 {
+    display: inline-block;
+    margin-left: -5px;
+}
+
+.A9x9 {
+    margin-left: 5px;
+    margin-top: -3px;
+}
+
+.Sudoku {
+    width: 432px;
+    border: black solid 5px;
+        margin-top: 250px;
+        margin-left: 750px;
+
+
+}
