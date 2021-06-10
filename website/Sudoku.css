@@ -1,44 +1,49 @@
+
 .A1x1 {
     padding: 0px;
-    font-size: 40px;
+    font-size: 35px;
     text-align: center;
-    height: 44px;
-    width: 44px;
-    float: left;
+    height: 50px;
+    width: 50px;
+    margin-left: -4px;
 }
 
-.A1x3 {
-    height: 44px;
-    width: 44px;
+.container {
     text-align: center;
-    display: inline-block;
-    margin-left: 0px;
+    margin: 0px;
+    margin-left: 3px;
+}
+
+.containercontainer {
     margin-top: 0px;
-
-}
-
-.A3x3 {
-    border: black solid 2px;
-    padding: 0px;
+    margin-left: 0px;
+    margin-right: 100px;
     text-align: center;
-    height: 142px;
-    width: 140px;
+    border: 3px solid black;
+    width: 161px;
+    height: 162px;
 }
-.A3x9 {
+
+.containercontainercontainer {
+    margin-left: 33%;
     display: inline-block;
-    margin-left: -5px;
+    text-align: center;
+    border: 5px solid black;
+    width: 258px;
 }
-
-.A9x9 {
-    margin-left: 5px;
-    margin-top: -3px;
+.containercontainercontainer2 {
+    margin-top: 250px;
+    margin-left: -104px;
+    display: inline-block;
+    text-align: center;
+    border: 5px solid black;
+    width: 258px;
 }
-
-.Sudoku {
-    width: 432px;
-    border: black solid 5px;
-        margin-top: 250px;
-        margin-left: 750px;
-
-
+.containercontainercontainer3 {
+    margin-top: 250px;
+    margin-left: -104px;
+    display: inline-block;
+    text-align: center;
+    border: 5px solid black;
+    width: 166px;
 }
