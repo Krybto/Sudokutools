@@ -1,0 +1,49 @@
+
+.A1x1 {
+    padding: 0px;
+    font-size: 35px;
+    text-align: center;
+    height: 50px;
+    width: 50px;
+    margin-left: -4px;
+}
+
+.container {
+    text-align: center;
+    margin: 0px;
+    margin-left: 3px;
+}
+
+.containercontainer {
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 100px;
+    text-align: center;
+    border: 3px solid black;
+    width: 161px;
+    height: 162px;
+}
+
+.containercontainercontainer {
+    margin-left: 33%;
+    display: inline-block;
+    text-align: center;
+    border: 5px solid black;
+    width: 258px;
+}
+.containercontainercontainer2 {
+    margin-top: 250px;
+    margin-left: -104px;
+    display: inline-block;
+    text-align: center;
+    border: 5px solid black;
+    width: 258px;
+}
+.containercontainercontainer3 {
+    margin-top: 250px;
+    margin-left: -104px;
+    display: inline-block;
+    text-align: center;
+    border: 5px solid black;
+    width: 166px;
+}
