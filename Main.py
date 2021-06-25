@@ -27,17 +27,22 @@ def server_static(filename):
 def solve(form):
     grid = init_empty_grid()
     print(grid)
-    counter = 0
-    for row_index in range(9):
-        for column_index in range(9):
-            if form.get(f"f{str(counter)}") == "":
-                grid[row_index][column_index] = 0
-            else:
-                print(form.get(f"f{str(counter)}"))
-                grid[row_index][column_index] = int(form.get(f"f{str(counter)}"))
-            counter += 1
-    print(grid)
-    return main(grid)
+    try:
+        counter = 0
+        for row_index in range(9):
+            for column_index in range(9):
+                if form.get(f"f{str(counter)}") == "":
+                    grid[row_index][column_index] = 0
+                else:
+                    print(form.get(f"f{str(counter)}"))
+                    grid[row_index][column_index] = int(form.get(f"f{str(counter)}"))
+                counter += 1
+        print(grid)
+        return main(grid)
+    except TypeError:
+        return init_empty_grid()
+    except ValueError:
+        return init_empty_grid()
 
 
 run(debug=True, reloader=True)
