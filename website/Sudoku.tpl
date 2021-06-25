@@ -176,5 +176,10 @@
     % if 0 in x:
         <p style="color:red">Sudoku is not solvable</p>
     % break
+    % end
+% end
+<form action="/" method="get" class="board">
+    <button type="submit">Reset</button>
+</form>
 </body>
 </html>
