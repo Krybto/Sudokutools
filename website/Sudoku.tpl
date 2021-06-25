@@ -2,238 +2,179 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
-    <link rel="stylesheet" href="Sudoku.css">
+    <link rel="stylesheet" href="static/Sudoku.css">
+    <title>Sudoku</title>
 </head>
 <body>
-<div class="containercontainercontainer">
-    <div class="containercontainer">
-        <form class="container">
-
-            <input type="A1x1" class="A1x1" size="1px" name="F1" maxlength="1">
-            <input type="A1x1" class="A1x1" size="1px" name="F2" maxlength="1">
-            <input type="A1x1" class="A1x1" size="1px" name="F3" readonly="readonly" value="2">
-
-
-        </form>
-        <form class="container">
-
-            <input type="A1x1" class="A1x1" size="1px" name="F4" maxlength="1">
-            <input type="A1x1" class="A1x1" size="1px" name="F5" maxlength="1">
-            <input type="A1x1" class="A1x1" size="1px" name="F6" maxlength="1">
-
-        </form>
-        <form class="container">
-
-            <input type="A1x1" class="A1x1" size="1px" name="F7" maxlength="1">
-            <input type="A1x1" class="A1x1" size="1px" name="F8" maxlength="1">
-            <input type="A1x1" class="A1x1" size="1px" name="F9" maxlength="1">
-
-        </form>
-    </div>
-
-    <div class="containercontainer">
-        <form class="container">
-
-            <input type="A1x1" class="A1x1" size="1px" name="F10" readonly="readonly" value="5">
-            <input type="A1x1" class="A1x1" size="1px" name="F11" maxlength="1">
-            <input type="A1x1" class="A1x1" size="1px" name="F12" maxlength="1">
-
-
-        </form>
-        <form class="container">
-
-            <input type="A1x1" class="A1x1" size="1px" name="F13" maxlength="1">
-            <input type="A1x1" class="A1x1" size="1px" name="F14" maxlength="1">
-            <input type="A1x1" class="A1x1" size="1px" name="F15" maxlength="1">
-
-        </form>
-        <form class="container">
-
-            <input type="A1x1" class="A1x1" size="1px" name="F16" maxlength="1">
-            <input type="A1x1" class="A1x1" size="1px" name="F17" readonly="readonly" value="1">
-            <input type="A1x1" class="A1x1" size="1px" name="F18" maxlength="1">
-
-        </form>
-    </div>
-    <div class="containercontainer">
-        <form class="container">
-
-            <input type="A1x1" class="A1x1" size="1px" name="F19" maxlength="1">
-            <input type="A1x1" class="A1x1" size="1px" name="F20" maxlength="1">
-            <input type="A1x1" class="A1x1" size="1px" name="F21" maxlength="1">
-
-
-        </form>
-        <form class="container">
-
-            <input type="A1x1" class="A1x1" size="1px" name="F22" maxlength="1">
-            <input type="A1x1" class="A1x1" size="1px" name="F23" maxlength="1">
-            <input type="A1x1" class="A1x1" size="1px" name="F24" maxlength="1">
-
-        </form>
-        <form class="container">
-
-            <input type="A1x1" class="A1x1" size="1px" name="F25" readonly="readonly" value="8">
-            <input type="A1x1" class="A1x1" size="1px" name="F26" maxlength="1">
-            <input type="A1x1" class="A1x1" size="1px" name="F27" maxlength="1">
-
-        </form>
-    </div>
-</div>
-
-<div class="containercontainercontainer2">
-    <div class="containercontainer">
-        <form class="container">
-
-            <input type="A1x1" class="A1x1" size="1px" name="F28" maxlength="1">
-            <input type="A1x1" class="A1x1" size="1px" name="F29" maxlength="1">
-            <input type="A1x1" class="A1x1" size="1px" name="F30" maxlength="1">
-
-
-        </form>
-        <form class="container">
-
-            <input type="A1x1" class="A1x1" size="1px" name="F31" maxlength="1">
-            <input type="A1x1" class="A1x1" size="1px" name="F32" maxlength="1">
-            <input type="A1x1" class="A1x1" size="1px" name="F33" maxlength="1">
-
-        </form>
-        <form class="container">
-
-            <input type="A1x1" class="A1x1" size="1px" name="F34" maxlength="1">
-            <input type="A1x1" class="A1x1" size="1px" name="F35" readonly="readonly" value="8">
-            <input type="A1x1" class="A1x1" size="1px" name="F36" maxlength="1">
-
-        </form>
-    </div>
-
-    <div class="containercontainer">
-        <form class="container">
-
-            <input type="A1x1" class="A1x1" size="1px" name="F37" maxlength="1">
-            <input type="A1x1" class="A1x1" size="1px" name="F38" maxlength="1">
-            <input type="A1x1" class="A1x1" size="1px" name="F39" maxlength="1">
-
-
-        </form>
-        <form class="container">
-
-            <input type="A1x1" class="A1x1" size="1px" name="F40" maxlength="1">
-            <input type="A1x1" class="A1x1" size="1px" name="F41" maxlength="1">
-            <input type="A1x1" class="A1x1" size="1px" name="F42" readonly="readonly" value="4">
-
-        </form>
-        <form class="container">
-
-            <input type="A1x1" class="A1x1" size="1px" name="F43" maxlength="1">
-            <input type="A1x1" class="A1x1" size="1px" name="F44" maxlength="1">
-            <input type="A1x1" class="A1x1" size="1px" name="F45" maxlength="1">
-
-        </form>
-    </div>
-    <div class="containercontainer">
-        <form class="container">
-
-            <input type="A1x1" class="A1x1" size="1px" name="F46" readonly="readonly" value="9">
-            <input type="A1x1" class="A1x1" size="1px" name="F47" maxlength="1">
-            <input type="A1x1" class="A1x1" size="1px" name="F48" maxlength="1">
-
-
-        </form>
-        <form class="container">
-
-            <input type="A1x1" class="A1x1" size="1px" name="F49" maxlength="1">
-            <input type="A1x1" class="A1x1" size="1px" name="F50" readonly="readonly" value="6">
-            <input type="A1x1" class="A1x1" size="1px" name="F51" maxlength="1">
-
-        </form>
-        <form class="container">
-
-            <input type="A1x1" class="A1x1" size="1px" name="F52" maxlength="1">
-            <input type="A1x1" class="A1x1" size="1px" name="F53" maxlength="1">
-            <input type="A1x1" class="A1x1" size="1px" name="F54" maxlength="1">
-
-        </form>
-    </div>
-</div>
-
-<div class="containercontainercontainer3">
-    <div class="containercontainer">
-        <form class="container">
-
-            <input type="A1x1" class="A1x1" size="1px" name="F55" maxlength="1">
-            <input type="A1x1" class="A1x1" size="1px" name="F56" maxlength="1">
-            <input type="A1x1" class="A1x1" size="1px" name="F57" maxlength="1">
-
-
-        </form>
-        <form class="container">
-
-            <input type="A1x1" class="A1x1" size="1px" name="F58" maxlength="1">
-            <input type="A1x1" class="A1x1" size="1px" name="F59" maxlength="1">
-            <input type="A1x1" class="A1x1" size="1px" name="F60" maxlength="1">
-
-        </form>
-        <form class="container">
-
-            <input type="A1x1" class="A1x1" size="1px" name="F61" maxlength="1">
-            <input type="A1x1" class="A1x1" size="1px" name="F62" readonly="readonly" value="7">
-            <input type="A1x1" class="A1x1" size="1px" name="F63" maxlength="1">
-
-        </form>
-    </div>
-
-    <div class="containercontainer">
-        <form class="container">
-
-            <input type="A1x1" class="A1x1" size="1px" name="F64" readonly="readonly" value="2">
-            <input type="A1x1" class="A1x1" size="1px" name="F65" maxlength="1">
-            <input type="A1x1" class="A1x1" size="1px" name="F66" maxlength="1">
-
-
-        </form>
-        <form class="container">
-
-            <input type="A1x1" class="A1x1" size="1px" name="F67" maxlength="1">
-            <input type="A1x1" class="A1x1" size="1px" name="F68" maxlength="1">
-            <input type="A1x1" class="A1x1" size="1px" name="F69" maxlength="1">
-
-        </form>
-        <form class="container">
-
-            <input type="A1x1" class="A1x1" size="1px" name="F70" maxlength="1">
-            <input type="A1x1" class="A1x1" size="1px" name="F71" readonly="readonly" value="5">
-            <input type="A1x1" class="A1x1" size="1px" name="F72" maxlength="1">
-
-        </form>
-    </div>
-    <div class="containercontainer">
-        <form class="container">
-
-            <input type="A1x1" class="A1x1" size="1px" name="F73" maxlength="1">
-            <input type="A1x1" class="A1x1" size="1px" name="F74" maxlength="1">
-            <input type="A1x1" class="A1x1" size="1px" name="F75" maxlength="1">
-
-
-        </form>
-        <form class="container">
-
-            <input type="A1x1" class="A1x1" size="1px" name="F76" maxlength="1">
-            <input type="A1x1" class="A1x1" size="1px" name="F77" maxlength="1">
-            <input type="A1x1" class="A1x1" size="1px" name="F78" readonly="readonly" value="3">
-
-        </form>
-        <form class="container">
-
-            <input type="A1x1" class="A1x1" size="1px" name="F79" maxlength="1">
-            <input type="A1x1" class="A1x1" size="1px" name="F80" maxlength="1">
-            <input type="A1x1" class="A1x1" size="1px" name="F81" maxlength="1">
-
-        </form>
+<form action="solve" method="post" class="board">
+<div class="Sudoku">
+    <div class="A9x9">
+        <div class="A3x9">
+            <div class="A3x3">
+                <div class="A1x3">
+                        <input type="text" class="A1x1" size="1px" name="f0" value="{{grid[0][0]}}">
+                        <input type="text" class="A1x1" size="1px" name="f9" value="{{grid[1][0]}}">
+                        <input type="text" class="A1x1" size="1px" name="f18" value="{{grid[2][0]}}">
+                </div>
+                <div class="A1x3">
+                        <input type="text" class="A1x1" size="1px" name="f1" value="{{grid[0][1]}}">
+                        <input type="text" class="A1x1" size="1px" name="f10" value="{{grid[1][1]}}">
+                        <input type="text" class="A1x1" size="1px" name="f19" value="{{grid[2][1]}}">
+                </div>
+                <div class="A1x3">
+                        <input type="text" class="A1x1" size="1px" name="f2" value="{{grid[0][2]}}">
+                        <input type="text" class="A1x1" size="1px" name="f11" value="{{grid[1][2]}}">
+                        <input type="text" class="A1x1" size="1px" name="f20" value="{{grid[2][2]}}">
+                </div>
+            </div>
+            <div class="A3x3">
+                <div class="A1x3">
+                        <input type="text" class="A1x1" size="1px" name="f27" value="{{grid[3][0]}}">
+                        <input type="text" class="A1x1" size="1px" name="f36" value="{{grid[4][0]}}">
+                        <input type="text" class="A1x1" size="1px" name="f45" value="{{grid[5][0]}}">
+                </div>
+                <div class="A1x3">
+                        <input type="text" class="A1x1" size="1px" name="f28" value="{{grid[3][1]}}">
+                        <input type="text" class="A1x1" size="1px" name="f37" value="{{grid[4][1]}}">
+                        <input type="text" class="A1x1" size="1px" name="f46" value="{{grid[5][1]}}">
+                </div>
+                <div class="A1x3">
+                        <input type="text" class="A1x1" size="1px" name="f29" value="{{grid[3][2]}}">
+                        <input type="text" class="A1x1" size="1px" name="f38" value="{{grid[4][2]}}">
+                        <input type="text" class="A1x1" size="1px" name="f47" value="{{grid[5][2]}}">
+                </div>
+            </div>
+             <div class="A3x3">
+                <div class="A1x3">
+                        <input type="text" class="A1x1" size="1px" name="f54" value="{{grid[6][0]}}">
+                        <input type="text" class="A1x1" size="1px" name="f63" value="{{grid[7][0]}}">
+                        <input type="text" class="A1x1" size="1px" name="f72" value="{{grid[8][0]}}">
+                </div>
+                <div class="A1x3">
+                        <input type="text" class="A1x1" size="1px" name="f55" value="{{grid[6][1]}}">
+                        <input type="text" class="A1x1" size="1px" name="f64" value="{{grid[7][1]}}">
+                        <input type="text" class="A1x1" size="1px" name="f73" value="{{grid[8][1]}}">
+                </div>
+                <div class="A1x3">
+                        <input type="text" class="A1x1" size="1px" name="f56" value="{{grid[6][2]}}">
+                        <input type="text" class="A1x1" size="1px" name="f65" value="{{grid[7][2]}}">
+                        <input type="text" class="A1x1" size="1px" name="f74" value="{{grid[8][2]}}">
+                </div>
+            </div>
+        </div>
+        <div class="A3x9">
+            <div class="A3x3">
+                <div class="A1x3">
+                        <input type="text" class="A1x1" size="1px" name="f3" value="{{grid[0][3]}}">
+                        <input type="text" class="A1x1" size="1px" name="f12" value="{{grid[1][3]}}">
+                        <input type="text" class="A1x1" size="1px" name="f21" value="{{grid[2][3]}}">
+                </div>
+                <div class="A1x3">
+                        <input type="text" class="A1x1" size="1px" name="f4" value="{{grid[0][4]}}">
+                        <input type="text" class="A1x1" size="1px" name="f13" value="{{grid[1][4]}}">
+                        <input type="text" class="A1x1" size="1px" name="f22" value="{{grid[2][4]}}">
+                </div>
+                <div class="A1x3">
+                        <input type="text" class="A1x1" size="1px" name="f5" value="{{grid[0][5]}}">
+                        <input type="text" class="A1x1" size="1px" name="f14" value="{{grid[1][5]}}">
+                        <input type="text" class="A1x1" size="1px" name="f23" value="{{grid[2][5]}}">
+                </div>
+            </div>
+            <div class="A3x3">
+                <div class="A1x3">
+                        <input type="text" class="A1x1" size="1px" name="f30" value="{{grid[3][3]}}">
+                        <input type="text" class="A1x1" size="1px" name="f39" value="{{grid[4][3]}}">
+                        <input type="text" class="A1x1" size="1px" name="f48" value="{{grid[5][3]}}">
+                </div>
+                <div class="A1x3">
+                        <input type="text" class="A1x1" size="1px" name="f31" value="{{grid[3][4]}}">
+                        <input type="text" class="A1x1" size="1px" name="f40" value="{{grid[4][4]}}">
+                        <input type="text" class="A1x1" size="1px" name="f49" value="{{grid[5][4]}}">
+                </div>
+                <div class="A1x3">
+                        <input type="text" class="A1x1" size="1px" name="f32" value="{{grid[3][5]}}">
+                        <input type="text" class="A1x1" size="1px" name="f41" value="{{grid[4][5]}}">
+                        <input type="text" class="A1x1" size="1px" name="f50" value="{{grid[5][5]}}">
+                </div>
+            </div>
+             <div class="A3x3">
+                <div class="A1x3">
+                        <input type="text" class="A1x1" size="1px" name="f57" value="{{grid[6][3]}}">
+                        <input type="text" class="A1x1" size="1px" name="f66" value="{{grid[7][3]}}">
+                        <input type="text" class="A1x1" size="1px" name="f75" value="{{grid[8][3]}}">
+                </div>
+                <div class="A1x3">
+                        <input type="text" class="A1x1" size="1px" name="f58" value="{{grid[6][4]}}">
+                        <input type="text" class="A1x1" size="1px" name="f67" value="{{grid[7][4]}}">
+                        <input type="text" class="A1x1" size="1px" name="f76" value="{{grid[8][4]}}">
+                </div>
+                <div class="A1x3">
+                        <input type="text" class="A1x1" size="1px" name="f59" value="{{grid[6][5]}}">
+                        <input type="text" class="A1x1" size="1px" name="f68" value="{{grid[7][5]}}">
+                        <input type="text" class="A1x1" size="1px" name="f77" value="{{grid[8][5]}}">
+                </div>
+            </div>
+        </div>
+        <div class="A3x9">
+            <div class="A3x3">
+                <div class="A1x3">
+                        <input type="text" class="A1x1" size="1px" name="f6" value="{{grid[0][6]}}">
+                        <input type="text" class="A1x1" size="1px" name="f15" value="{{grid[1][6]}}">
+                        <input type="text" class="A1x1" size="1px" name="f24" value="{{grid[2][6]}}">
+                </div>
+                <div class="A1x3">
+                        <input type="text" class="A1x1" size="1px" name="f7" value="{{grid[0][7]}}">
+                        <input type="text" class="A1x1" size="1px" name="f16" value="{{grid[1][7]}}">
+                        <input type="text" class="A1x1" size="1px" name="f25" value="{{grid[2][7]}}">
+                </div>
+                <div class="A1x3">
+                        <input type="text" class="A1x1" size="1px" name="f8" value="{{grid[0][8]}}">
+                        <input type="text" class="A1x1" size="1px" name="f17" value="{{grid[1][8]}}">
+                        <input type="text" class="A1x1" size="1px" name="f26" value="{{grid[2][8]}}">
+                </div>
+            </div>
+            <div class="A3x3">
+                <div class="A1x3">
+                        <input type="text" class="A1x1" size="1px" name="f33" value="{{grid[3][6]}}">
+                        <input type="text" class="A1x1" size="1px" name="f42" value="{{grid[4][6]}}">
+                        <input type="text" class="A1x1" size="1px" name="f51" value="{{grid[5][6]}}">
+                </div>
+                <div class="A1x3">
+                        <input type="text" class="A1x1" size="1px" name="f34" value="{{grid[3][7]}}">
+                        <input type="text" class="A1x1" size="1px" name="f43" value="{{grid[4][7]}}">
+                        <input type="text" class="A1x1" size="1px" name="f52" value="{{grid[5][7]}}">
+                </div>
+                <div class="A1x3">
+                        <input type="text" class="A1x1" size="1px" name="f35" value="{{grid[3][8]}}">
+                        <input type="text" class="A1x1" size="1px" name="f44" value="{{grid[4][8]}}">
+                        <input type="text" class="A1x1" size="1px" name="f53" value="{{grid[5][8]}}">
+                </div>
+            </div>
+             <div class="A3x3">
+                <div class="A1x3">
+                        <input type="text" class="A1x1" size="1px" name="f60" value="{{grid[6][6]}}">
+                        <input type="text" class="A1x1" size="1px" name="f69" value="{{grid[7][6]}}">
+                        <input type="text" class="A1x1" size="1px" name="f78" value="{{grid[8][6]}}">
+                </div>
+                <div class="A1x3">
+                        <input type="text" class="A1x1" size="1px" name="f61" value="{{grid[6][7]}}">
+                        <input type="text" class="A1x1" size="1px" name="f70" value="{{grid[7][7]}}">
+                        <input type="text" class="A1x1" size="1px" name="f79" value="{{grid[8][7]}}">
+                </div>
+                <div class="A1x3">
+                        <input type="text" class="A1x1" size="1px" name="f62" value="{{grid[6][8]}}">
+                        <input type="text" class="A1x1" size="1px" name="f71" value="{{grid[7][8]}}">
+                        <input type="text" class="A1x1" size="1px" name="f80" value="{{grid[8][8]}}">
+                </div>
+            </div>
+        </div>
     </div>
 </div>
-
-
+    <button type="submit">Solve</button>
+</form>
+% for x in grid:
+    % if 0 in x:
+        <p style="color:red">Sudoku is not solvable</p>
+    % break
 </body>
 </html>
