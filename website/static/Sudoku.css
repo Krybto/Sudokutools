@@ -1,3 +1,42 @@
+body {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    background: #4f4fff;
+    text-align: center;
+}
+.head_bar {
+    background: #0f6fff;
+    margin-right: auto;
+    margin-left: auto;
+    width: 99%;
+    height: max-content;
+    border: solid black 2px;
+    box-shadow: black 2px 2px 2px;
+}
+.head_content {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 100%;
+    height: max-content;
+
+}
+.link {
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+.button_box {
+    background: lightgray;
+    width: max-content;
+    height: max-content;
+    margin-left: auto;
+    margin-right: auto;
+    border: black solid 2px;
+    margin-top: 2%;
+}
 .A1x1 {
     padding: 0px;
     font-size: 40px;
@@ -5,6 +44,7 @@
     height: 44px;
     width: 44px;
     float: left;
+    outline: none;
 }
 .A1x1:focus {
     background: lightgray;
@@ -36,10 +76,12 @@
 }
 
 .Sudoku {
-    width: 432px;
+    width: max-content;
     border: black solid 5px;
-        margin-top: 250px;
-        margin-left: 750px;
-
+    margin-top: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 3px 3px 2px black;
+    text-align: center;
 
 }
