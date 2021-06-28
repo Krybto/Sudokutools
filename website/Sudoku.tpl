@@ -6,7 +6,13 @@
     <title>Sudoku</title>
 </head>
 <body>
-<form action="solve" method="post" class="board">
+<div class="head_bar">
+    <div class="head_content">
+        <a href="/" class="link"><h1 class="title">Sudoku</h1></a>
+        </div>
+    </div>
+</div>
+<form action="solve" method="post" class="board" id="post_board">
 <div class="Sudoku">
     <div class="A9x9">
         <div class="A3x9">
@@ -170,16 +176,25 @@
         </div>
     </div>
 </div>
-    <button type="submit">Solve</button>
 </form>
+<div class="button_box">
+    <table>
+        <tr>
+            <th>Lösen: </th>
+            <th>Reset: </th>
+        </tr>
+        <tr>
+            <td><button type="submit" form="post_board">Solve</button></td>
+            <td><button type="submit" form="reset">Reset</button></td>
+        </tr>
+    </table>
+<form action="/" method="get" class="board" id="reset"></form>
+</div>
 % for x in grid:
     % if 0 in x:
         <p style="color:red">Sudoku is not solvable</p>
     % break
     % end
 % end
-<form action="/" method="get" class="board">
-    <button type="submit">Reset</button>
-</form>
 </body>
 </html>
