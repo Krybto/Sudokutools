@@ -12,12 +12,24 @@
         </div>
     </div>
 </div>
+% check = ""
+% for x in grid:
+    % check += str(x)
+    % if "0" in check:
+        % bcolor = "red"
+        % info = 1
+        % break
+    % else:
+        % bcolor = "black"
+        % info = 0
+    % end
+% end
 <form action="solve" method="post" class="board" id="post_board">
-<div class="Sudoku">
-    <div class="A9x9">
-        <div class="A3x9">
-            <div class="A3x3">
-                <div class="A1x3">
+<div class="Sudoku" style="border-color:{{bcolor}}">
+    <div class="A9x9" style="border-color:{{bcolor}}">
+        <div class="A3x9" style="border-color:{{bcolor}}">
+            <div class="A3x3" style="border-color:{{bcolor}}">
+                <div class="A1x3" >
                         <input type="text" class="A1x1" size="1px" name="f0" value="{{grid[0][0]}}">
                         <input type="text" class="A1x1" size="1px" name="f9" value="{{grid[1][0]}}">
                         <input type="text" class="A1x1" size="1px" name="f18" value="{{grid[2][0]}}">
@@ -33,7 +45,7 @@
                         <input type="text" class="A1x1" size="1px" name="f20" value="{{grid[2][2]}}">
                 </div>
             </div>
-            <div class="A3x3">
+            <div class="A3x3" style="border-color:{{bcolor}}">
                 <div class="A1x3">
                         <input type="text" class="A1x1" size="1px" name="f27" value="{{grid[3][0]}}">
                         <input type="text" class="A1x1" size="1px" name="f36" value="{{grid[4][0]}}">
@@ -50,7 +62,7 @@
                         <input type="text" class="A1x1" size="1px" name="f47" value="{{grid[5][2]}}">
                 </div>
             </div>
-             <div class="A3x3">
+             <div class="A3x3" style="border-color:{{bcolor}}">
                 <div class="A1x3">
                         <input type="text" class="A1x1" size="1px" name="f54" value="{{grid[6][0]}}">
                         <input type="text" class="A1x1" size="1px" name="f63" value="{{grid[7][0]}}">
@@ -68,8 +80,8 @@
                 </div>
             </div>
         </div>
-        <div class="A3x9">
-            <div class="A3x3">
+        <div class="A3x9" style="border-color:{{bcolor}}">
+            <div class="A3x3" style="border-color:{{bcolor}}">
                 <div class="A1x3">
                         <input type="text" class="A1x1" size="1px" name="f3" value="{{grid[0][3]}}">
                         <input type="text" class="A1x1" size="1px" name="f12" value="{{grid[1][3]}}">
@@ -86,7 +98,7 @@
                         <input type="text" class="A1x1" size="1px" name="f23" value="{{grid[2][5]}}">
                 </div>
             </div>
-            <div class="A3x3">
+            <div class="A3x3" style="border-color:{{bcolor}}">
                 <div class="A1x3">
                         <input type="text" class="A1x1" size="1px" name="f30" value="{{grid[3][3]}}">
                         <input type="text" class="A1x1" size="1px" name="f39" value="{{grid[4][3]}}">
@@ -103,7 +115,7 @@
                         <input type="text" class="A1x1" size="1px" name="f50" value="{{grid[5][5]}}">
                 </div>
             </div>
-             <div class="A3x3">
+             <div class="A3x3" style="border-color:{{bcolor}}">
                 <div class="A1x3">
                         <input type="text" class="A1x1" size="1px" name="f57" value="{{grid[6][3]}}">
                         <input type="text" class="A1x1" size="1px" name="f66" value="{{grid[7][3]}}">
@@ -121,8 +133,8 @@
                 </div>
             </div>
         </div>
-        <div class="A3x9">
-            <div class="A3x3">
+        <div class="A3x9" style="border-color:{{bcolor}}">
+            <div class="A3x3" style="border-color:{{bcolor}}">
                 <div class="A1x3">
                         <input type="text" class="A1x1" size="1px" name="f6" value="{{grid[0][6]}}">
                         <input type="text" class="A1x1" size="1px" name="f15" value="{{grid[1][6]}}">
@@ -139,7 +151,7 @@
                         <input type="text" class="A1x1" size="1px" name="f26" value="{{grid[2][8]}}">
                 </div>
             </div>
-            <div class="A3x3">
+            <div class="A3x3" style="border-color:{{bcolor}}">
                 <div class="A1x3">
                         <input type="text" class="A1x1" size="1px" name="f33" value="{{grid[3][6]}}">
                         <input type="text" class="A1x1" size="1px" name="f42" value="{{grid[4][6]}}">
@@ -156,7 +168,7 @@
                         <input type="text" class="A1x1" size="1px" name="f53" value="{{grid[5][8]}}">
                 </div>
             </div>
-             <div class="A3x3">
+             <div class="A3x3" style="border-color:{{bcolor}}">
                 <div class="A1x3">
                         <input type="text" class="A1x1" size="1px" name="f60" value="{{grid[6][6]}}">
                         <input type="text" class="A1x1" size="1px" name="f69" value="{{grid[7][6]}}">
@@ -181,20 +193,19 @@
     <table>
         <tr>
             <th>Lösen: </th>
-            <th>Reset: </th>
+            <td><button type="submit" form="post_board">Lösen</button></td>
         </tr>
         <tr>
-            <td><button type="submit" form="post_board">Solve</button></td>
+            <th>Reset: </th>
             <td><button type="submit" form="reset">Reset</button></td>
         </tr>
     </table>
 <form action="/" method="get" class="board" id="reset"></form>
 </div>
-% for x in grid:
-    % if 0 in x:
+% if info:
+    <div class="error_box">
         <p style="color:red">Sudoku is not solvable</p>
-    % break
-    % end
+    </div>
 % end
 </body>
 </html>
