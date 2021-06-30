@@ -40,10 +40,10 @@ body {
 }
 .A1x1 {
     padding: 0px;
-    font-size: 40px;
+    font-size: 25px;
     text-align: center;
-    height: 44px;
-    width: 44px;
+    height: 50px;
+    width: 50px;
     float: left;
     outline: none;
 }
@@ -51,10 +51,10 @@ body {
     background: lightgray;
 }
 .A1x3 {
-    height: 44px;
-    width: 44px;
+    height: 150px;
+    width: 50px;
     text-align: center;
-    display: inline-block;
+    display: table-cell;
     margin-left: 0px;
     margin-top: 0px;
 
@@ -63,17 +63,19 @@ body {
     border: black solid 2px;
     padding: 0px;
     text-align: center;
-    height: 142px;
-    width: 140px;
+    height: max-content;
+    width: max-content;
 }
 .A3x9 {
-    display: inline-block;
-    margin-left: -5px;
+    display: table-cell;
+    width: max-content;
+    height: max-content;
 }
 
 .A9x9 {
-    margin-left: 5px;
-    margin-top: -3px;
+    width: max-content;
+    height: max-content;
+
 }
 
 .Sudoku {
@@ -82,8 +84,9 @@ body {
     margin-top: 10%;
     margin-left: auto;
     margin-right: auto;
-    box-shadow: 3px 3px 2px black;
+    box-shadow: 7px 7px 7px #70B2FF;
     text-align: center;
+    background: black;
 
 }
 .error_box {
