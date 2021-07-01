@@ -13,7 +13,6 @@
     </div>
 </div>
 % check = ""
-% print(grid)
 % for x in grid:
     % check += str(x)
     % if "0" in check:
