@@ -1,19 +1,32 @@
-import copy
-
 from bottle import route, run, template, request, static_file
 from LK3 import *
-import random as rd
 
 
 @route('/')
 def index():
-    grid = [["", "", "", "", "", "", "", "", ""], ["", "", "", "", "", "", "", "", ""], ["", "", "", "", "", "", "", "", ""], ["", "", "", "", "", "", "", "", ""], ["", "", "", "", "", "", "", "", ""], ["", "", "", "", "", "", "", "", ""], ["", "", "", "", "", "", "", "", ""], ["", "", "", "", "", "", "", "", ""], ["", "", "", "", "", "", "", "", ""]]
+    grid = [["", "", "", "", "", "", "", "", ""],
+            ["", "", "", "", "", "", "", "", ""],
+            ["", "", "", "", "", "", "", "", ""],
+            ["", "", "", "", "", "", "", "", ""],
+            ["", "", "", "", "", "", "", "", ""],
+            ["", "", "", "", "", "", "", "", ""],
+            ["", "", "", "", "", "", "", "", ""],
+            ["", "", "", "", "", "", "", "", ""],
+            ["", "", "", "", "", "", "", "", ""]]
     return template("website/Sudoku.tpl", grid=grid)
 
 
 @route("/solve")
 def solving():
-    return template("website/Sudoku.tpl", grid=[["", "", "", "", "", "", "", "", ""], ["", "", "", "", "", "", "", "", ""], ["", "", "", "", "", "", "", "", ""], ["", "", "", "", "", "", "", "", ""], ["", "", "", "", "", "", "", "", ""], ["", "", "", "", "", "", "", "", ""], ["", "", "", "", "", "", "", "", ""], ["", "", "", "", "", "", "", "", ""], ["", "", "", "", "", "", "", "", ""]])
+    return template("website/Sudoku.tpl", grid=[["", "", "", "", "", "", "", "", ""],
+                                                ["", "", "", "", "", "", "", "", ""],
+                                                ["", "", "", "", "", "", "", "", ""],
+                                                ["", "", "", "", "", "", "", "", ""],
+                                                ["", "", "", "", "", "", "", "", ""],
+                                                ["", "", "", "", "", "", "", "", ""],
+                                                ["", "", "", "", "", "", "", "", ""],
+                                                ["", "", "", "", "", "", "", "", ""],
+                                                ["", "", "", "", "", "", "", "", ""]])
 
 
 @route('/solve', method="POST")
@@ -43,6 +56,12 @@ def server_static(filename):
 
 
 def solve(form):
+    '''
+    Enters all numbers caught by the form and enters them into a new grid.
+    The new grid gets solved and returned. If an error occurs, an empty grid will be returned
+    :param form: form with information requested by the Server
+    :return: solved grid or empty grid
+    '''
     grid = init_empty_grid()
     try:
         counter = 0
