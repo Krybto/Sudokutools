@@ -303,8 +303,6 @@ def main(grid):
     """
     grid = grid
     candidates = init_candidates()
-    print("Start:\n")
-    print_grid(grid)
     rounds = 0
     while True:
         rounds += 1
@@ -312,6 +310,9 @@ def main(grid):
         find_lonely_candidates(candidates)
         if not set_value_in_cell_by_last_candidate(grid, candidates):
             return grid
-        print(f"Round: {rounds}\n")
-        print_grid(grid)
 
+
+"""
+Modified version,
+returns no prints
+"""
